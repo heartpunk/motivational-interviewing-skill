@@ -1,6 +1,6 @@
 # Motivational Interviewing Skill
 
-A Claude Code / Codex / pi skill that teaches AI agents to practice motivational interviewing — an evidence-based approach for helping people work through ambivalence, stuckness, and difficult decisions.
+A Claude Code / OpenCode / Codex / pi skill that teaches AI agents to practice motivational interviewing — an evidence-based approach for helping people work through ambivalence, stuckness, and difficult decisions.
 
 ## What it does
 
@@ -15,11 +15,32 @@ When invoked, the agent shifts into MI mode: reflecting what you say, asking ope
 /plugin install motivational-interviewing@motivational-interviewing-skill
 ```
 
-Then invoke with:
+Then invoke with `/motivational-interviewing`.
 
+### OpenCode
+
+OpenCode natively supports SKILL.md and auto-loads from Claude Code skill directories. If you installed via Claude Code above, OpenCode picks it up automatically. Otherwise:
+
+```bash
+# Project-level
+mkdir -p .opencode/skills/motivational-interviewing
+cp motivational-interviewing/skills/motivational-interviewing/SKILL.md \
+   .opencode/skills/motivational-interviewing/SKILL.md
+
+# Global
+mkdir -p ~/.config/opencode/skills/motivational-interviewing
+cp motivational-interviewing/skills/motivational-interviewing/SKILL.md \
+   ~/.config/opencode/skills/motivational-interviewing/SKILL.md
 ```
-/motivational-interviewing
-/motivational-interviewing I'm stuck between two frameworks
+
+Or register in `opencode.json`:
+
+```json
+{
+  "skills": {
+    "paths": ["path/to/motivational-interviewing-skill/motivational-interviewing/skills"]
+  }
+}
 ```
 
 ### Codex
