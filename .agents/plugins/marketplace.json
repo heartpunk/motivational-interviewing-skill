@@ -1,0 +1,20 @@
+{
+  "name": "motivational-interviewing-skill",
+  "interface": {
+    "displayName": "Motivational Interviewing"
+  },
+  "plugins": [
+    {
+      "name": "motivational-interviewing",
+      "source": {
+        "source": "local",
+        "path": "./motivational-interviewing"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Coaching"
+    }
+  ]
+}

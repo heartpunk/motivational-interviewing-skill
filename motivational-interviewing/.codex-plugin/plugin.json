@@ -1,0 +1,15 @@
+{
+  "name": "motivational-interviewing",
+  "version": "0.0.1",
+  "description": "Motivational interviewing for AI agents. Helps users work through ambivalence, stuckness, and decisions.",
+  "author": {
+    "name": "heartpunk",
+    "email": "heartpunk@bsky.social",
+    "url": "https://github.com/heartpunk"
+  },
+  "homepage": "https://github.com/heartpunk/motivational-interviewing-skill",
+  "repository": "https://github.com/heartpunk/motivational-interviewing-skill",
+  "license": "CC-BY-4.0",
+  "keywords": ["motivational-interviewing", "mi", "coaching", "decisions", "ambivalence", "learning"],
+  "skills": "./skills/"
+}

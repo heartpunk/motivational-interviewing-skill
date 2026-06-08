@@ -1,0 +1,25 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "motivational-interviewing-skill",
+  "owner": {
+    "name": "heartpunk"
+  },
+  "metadata": {
+    "description": "Motivational interviewing skill for AI agents",
+    "version": "0.0.1"
+  },
+  "plugins": [
+    {
+      "name": "motivational-interviewing",
+      "source": "./motivational-interviewing",
+      "description": "Evidence-based motivational interviewing for working through ambivalence, stuckness, and decisions. Reflects, asks open questions, and helps users find their own direction — never tells them what to do.",
+      "version": "0.0.1",
+      "author": {
+        "name": "heartpunk"
+      },
+      "license": "CC-BY-4.0",
+      "keywords": ["motivational-interviewing", "mi", "coaching", "decisions", "ambivalence", "learning"],
+      "category": "coaching"
+    }
+  ]
+}
